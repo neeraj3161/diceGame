@@ -28,6 +28,6 @@ function won(){
     player1();
     player2();
     won();
-})
+}})
 
 
