@@ -18,9 +18,9 @@ function player2(){
 // won
 function won(){
     if (rounded1>rounded2){
-        document.querySelector(".won").innerHTML="<h3>Player 1 Won!!</h3><p>👏</p>"}
+        document.querySelector(".won").innerHTML="<h3>Player 1 Won!!</h3><p>👏</p>"
     }else if(rounded1==rounded2){
-        document.querySelector(".won").innerHTML="<h3>It's a Draw!! Try again</h3><p>😂</p>"}
+        document.querySelector(".won").innerHTML="<h3>It's a Draw!! Try again</h3><p>😂</p>"
     }else if (rounded1<rounded2){
         document.querySelector(".won").innerHTML="<h3>Player 2 Won!!</h3><p>👏</p>"
     }
