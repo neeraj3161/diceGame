@@ -7,12 +7,12 @@ var rounded2=(Math.round(randomVar));
 
 //player1
 function player1(){
-   document.querySelector('.img1').src="/images/dice"+rounded1+".png";
+   document.querySelector('.img1').src="/diceGame/images/dice"+rounded1+".png";
    return rounded1;
 }
 // player2
 function player2(){
-   document.querySelector('.img2').src="/images/dice"+rounded2+".png";
+   document.querySelector('.img2').src="/diceGame/images/dice"+rounded2+".png";
    return rounded2;
 }
 // won
